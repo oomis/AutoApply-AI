@@ -1,0 +1,20 @@
+# requirements.txt
+
+# For Browser Automation
+selenium
+
+# For Reading YAML configuration
+PyYAML
+
+# For AI Integration
+openai
+
+# For data handling
+pandas
+
+# For HTML parsing by the AI agent
+beautifulsoup4
+lxml
+
+# For loading environment variables from .env file
+python-dotenv

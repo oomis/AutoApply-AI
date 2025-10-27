@@ -1,0 +1,72 @@
+# profile.yml
+
+# --- YOUR PERSONAL INFORMATION ---
+personal_info:
+  first_name: "John"
+  last_name: "Doe"
+  email: "john.doe@email.com"
+  phone: "555-123-4567"
+  location: "San Francisco, CA, 94105"
+  linkedin: "https://linkedin.com/in/johndoe"
+  github: "https://github.com/johndoe"
+  portfolio: "https://johndoe.com"
+
+# --- JOB SEARCH CRITERIA ---
+job_search_criteria:
+  # Keywords to search for on job boards
+  keywords: "Software Engineer, Backend Developer"
+  # Location for the job search
+  location: "Remote"
+  # Keywords to filter OUT jobs. Case-insensitive.
+  # Example: if you don't want senior roles, add "senior", "sr."
+  exclusion_keywords:
+    # - "senior"
+    - "sr."
+    # - "lead"
+    # - "principal"
+    # - "manager"
+    # - "architect"
+
+# --- RESUME & COVER LETTER ---
+# Path to your main resume file (we will generate tailored ones later)
+resume_path: "/MyResume.pdf" # Use your actual path
+
+# This is the core data for tailoring your CV
+resume_data:
+  summary: "Results-driven Software Engineer with 5 years of experience in developing scalable web applications using Ruby on Rails and React. Passionate about writing clean code and solving complex problems."
+  work_experience:
+    - company: "Innovate Inc."
+      role: "Software Engineer"
+      dates: "Jan 2021 - Present"
+      responsibilities:
+        - "Developed RESTful APIs for the main e-commerce platform using Ruby on Rails, serving over 1 million daily requests."
+        - "Collaborated with a team of 5 engineers to build a new customer dashboard with React, improving user engagement by 15%."
+        - "Wrote and maintained unit and integration tests using RSpec, achieving 95% test coverage for critical services."
+    - company: "Data Solutions"
+      role: "Junior Developer"
+      dates: "Jun 2019 - Dec 2020"
+      responsibilities:
+        - "Assisted in the development of internal tools, primarily focusing on database scripts and minor feature additions."
+        - "Fixed over 100 bugs in the legacy PHP codebase."
+  projects:
+    - name: "Personal Blog Engine"
+      description: "A lightweight blog engine built with Flask and PostgreSQL, featuring Markdown support and a simple admin interface."
+      technologies: ["Python", "Flask", "PostgreSQL", "HTML/CSS"]
+  skills:
+    languages: ["Ruby", "JavaScript", "Python", "SQL"]
+    frameworks: ["Ruby on Rails", "React", "Flask"]
+    databases: ["PostgreSQL", "Redis", "MySQL"]
+    tools: ["Docker", "Git", "AWS", "Jira"]
+
+# --- STORY BANK FOR BEHAVIORAL QUESTIONS ---
+story_bank:
+  - title: "Challenging Project with Tight Deadline"
+    situation: "We were tasked with launching a new payment gateway integration within a very aggressive 2-week timeline, which was a critical business requirement."
+    task: "My responsibility was to develop the backend service to communicate with the third-party payment API and ensure all transactions were secure and logged correctly."
+    action: "I immediately broke the project into small, manageable tasks. I created a robust error-handling module first, then focused on the core transaction logic. I worked closely with the frontend developer to define a clear API contract, which allowed us to work in parallel. I also set up a staging environment to run extensive tests."
+    result: "We successfully launched the feature on time with zero production issues. The integration has since processed over $2 million in transactions."
+  - title: "Resolving a Team Conflict"
+    situation: "Two developers on the team had conflicting ideas about the database schema for a new feature, which was stalling progress."
+    task: "As the project lead, I needed to facilitate a resolution that was technically sound and maintained team morale."
+    action: "I organized a meeting where each developer presented their proposal without interruption. I then guided a discussion focused on the pros and cons of each approach against our project goals (scalability, maintainability). I proposed a hybrid solution that incorporated the best elements of both ideas."
+    result: "The team agreed on the hybrid approach. The conflict was resolved, we moved forward, and the feature was delivered successfully. It also established a better collaborative problem-solving process for the future."
