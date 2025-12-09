@@ -1,6 +1,6 @@
 # Personal AI Job Application Bot
 
-This project is a sophisticated, AI-powered automation tool designed to streamline the job application process. The bot automates searching for jobs on LinkedIn, filtering them based on custom criteria, using AI to tailor application materials, and applying to "Easy Apply" positions.
+This is AI-powered automation tool designed to streamline the job application process. The bot automates searching for jobs on LinkedIn, filtering them based on custom criteria, using AI to tailor application materials, and applying to "Easy Apply" positions.
 
 This is a personal tool and is intended to be run and configured for a single user.
 
