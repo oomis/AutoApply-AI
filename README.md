@@ -105,3 +105,13 @@ The bot will ask for your confirmation (`y/n/skip`) before applying to each job.
 -   **Maintenance:** Web scrapers are fragile. If LinkedIn updates its website, the selectors in `scraper.py` or `application_bot.py` may need to be updated.
 -   **Safety:** The application agent is configured to **simulate** the final "Submit" click for safety. To enable real submissions, you must uncomment the `target_element.click()` line in `application_bot.py`. Use this at your own risk and after verifying the bot's behavior.
 -   **Security:** The `.gitignore` file is configured to prevent your `.env` file and other sensitive information from being committed to Git. **Do not modify it to track the `.env` file.**
+
+## Environment Variables
+
+Create a `.env` file in the project root with the following variables:
+
+```env
+LINKEDIN_EMAIL=your_email@example.com
+LINKEDIN_PASSWORD=your_linkedin_password
+OPENAI_API_KEY=your_openai_api_key
+```
