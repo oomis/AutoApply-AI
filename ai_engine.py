@@ -125,3 +125,4 @@ def generate_cover_letter(
     except Exception as e:
         print(f"❌ Error while generating the cover letter: {e}")
         return None
+'''Improve AI response handling in the functions below'''
